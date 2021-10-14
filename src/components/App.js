@@ -3,6 +3,7 @@ import Tickler from "./Tickler";
 import MultiButton from "./MultiButton";
 import ChangeItUp from "./ChangeItUp";
 import Login from "./Login";
+import KeyPad from "./Keypad";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
 
       <h3>onChange</h3>
       <ChangeItUp />
-      <hr />
+      <hr /> <KeyPad />
 
       <h3>onSubmit</h3>
       <Login />
